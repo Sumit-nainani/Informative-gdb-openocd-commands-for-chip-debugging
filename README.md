@@ -1,0 +1,1 @@
+# Informative-gdb-openocd-commands-for-chip-debugging
