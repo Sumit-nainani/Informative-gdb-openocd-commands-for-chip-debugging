@@ -1,0 +1,36 @@
+target remote: 3333
+EZAXI -o read -a <addr>
+EZAXI -o write -a <addr> -d <data>
+set substitute-path <current-path> <new-path> 
+add-symbol-file <path>
+get_image_path -i boot
+reg -l category
+reg -l <category_number>
+
+1.memory management unit
+2.system control and configuration
+3.cache control and configuration
+4.generic interrupt controller system register_name
+
+reg -w <register_name> -d <data>
+reg -r <register_name>
+
+rm -rf .*
+rm -rf s*
+git status
+git commit -m ""
+git log 
+git add --a 
+git init
+git diff
+git diff --staged
+git commit -a -m ""
+git rm --cached filename
+git lop -p -n
+git checkout -f
+git restore --staged <file_name>
+git log --stat
+git log --pretty=oneline/short
+git log --since=
+git commit --amend
+attrib +s +h/-s -h
